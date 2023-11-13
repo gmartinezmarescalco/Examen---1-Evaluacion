@@ -1,7 +1,7 @@
 
-zone "asircastelao.int" {
+zone "tiendadeelectronia.int" {
 	type master;
-	file "/var/lib/bind/db.asircastelao.int";
+	file "/var/lib/bind/tiendadeelectronia.int";
 	allow-query {
 		any;
 		};
