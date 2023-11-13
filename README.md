@@ -76,6 +76,45 @@ Podemos comprobar que funciona al utiliza dig
 
 ![ Comprobación DIG ](./imagenes/6.png)
 
+Podemos comprobar los logs haciendo click derecho en el contenedor y seleccionando "View logs"
+
+![ Logs ](./imagenes/11.png)
+
+## 10. Realiza el apartado 9 en la máquina virtual con DNS
+
+Primero se ha de instalar el bind9 utilizando el siguiente comando
+
+        sudo apt install bind9
+
+Se puede comprobar que funciona utilizado:
+
+        systemctl status bind9
+
+![ Bind9 funcionando ](./imagenes/7.png)
+
+Luego, dentro de /var/lib/bind se crea el fichero **"db.tiendadeelectronica.int"**
+
+![ Creacion de fichero en /var/lib/bind ](./imagenes/8.png)
+
+De igual forma como en el paso anterior se modifican los ficheros de configuracion y se definen las zonas
+
+![ Definir zonas ](./imagenes/9.png)
+
+![ Modificacion de configuracion ](./imagenes/10.png)
+
+Una vez mas se comprueba con el dig
+
+![ Comprobación DIG ](./imagenes/12.png)
+
+![ Comprobación DIG ](./imagenes/13.png)
+
+![ Comprobación DIG ](./imagenes/14.png)
+
+
+
+
+
+
 
 
 
