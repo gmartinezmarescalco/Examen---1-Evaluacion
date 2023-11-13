@@ -1,7 +1,7 @@
 
-zone "tiendadeelectronia.int" {
+zone "tiendadeelectronica" {
 	type master;
-	file "/var/lib/bind/tiendadeelectronia.int";
+	file "/var/lib/bind/db.tiendadeelectronica.int";
 	allow-query {
 		any;
 		};

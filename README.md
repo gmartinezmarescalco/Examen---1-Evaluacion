@@ -55,6 +55,35 @@ Por ejemplo google.com tiene 8.8.8.8 como DNS. Si se hace un CNAME a dicho domin
 
 Una de las opciones sería crear carpetas en el anfitrión y mapearlas con los directorios del contedor en la configuración de los volumenes en el docker
 
+## 9. Añade una zona tiendadeelectronica.int en tu docker DNS que tenga 
+
+Primer se ha de crear un archivo llamado **"tiendadeelectronica.int"** en la carpeta **/var/lib/bind** y luego modificar los archivos de configuración
+
+
+![ Creación de fichero en /var/lib/bind ](./imagenes/1.png)
+
+![ Modificación de configuracion en los ficheros de /var/lib/bind ](./imagenes/2.png)
+
+Una vez hecho eso podemos configurar las zonas
+
+![ Modificación de configuracion en los ficheros de /var/lib/bind ](./imagenes/3.png)
+
+Podemos comprobar que funciona al utiliza dig
+
+![ Comprobación DIG ](./imagenes/4.png)
+
+![ Comprobación DIG ](./imagenes/5.png)
+
+![ Comprobación DIG ](./imagenes/6.png)
+
+
+
+
+
+
+
+
+
 
 
 

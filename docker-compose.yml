@@ -12,17 +12,6 @@ services:
     volumes:
       - ./conf:/etc/bind
       - ./lib:/var/lib/bind
-
-  asir_cliente:
-    container_name: examen_cliente
-    image: alpine    
-    stdin_open: true  
-    tty: true
-    networks:
-      asir_bind9_subnet:
-        ipv4_address: 172.50.5.200     
-    dns:
-      - 172.50.5.100 
 networks:
   asir_bind9_subnet:
     external: true
