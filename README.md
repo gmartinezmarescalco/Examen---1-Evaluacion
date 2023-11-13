@@ -57,7 +57,7 @@ Una de las opciones sería crear carpetas en el anfitrión y mapearlas con los d
 
 ## 9. Añade una zona tiendadeelectronica.int en tu docker DNS que tenga 
 
-Primer se ha de crear un archivo llamado **"tiendadeelectronica.int"** en la carpeta **/var/lib/bind** y luego modificar los archivos de configuración
+Primer se ha de crear un archivo llamado **"db.tiendadeelectronica.int"** en la carpeta **/var/lib/bind** y luego modificar los archivos de configuración
 
 
 ![ Creación de fichero en /var/lib/bind ](./imagenes/1.png)
