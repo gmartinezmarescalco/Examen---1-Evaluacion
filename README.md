@@ -64,11 +64,11 @@ Primer se ha de crear un archivo llamado **"db.tiendadeelectronica.int"** en la 
 
 ![ Modificación de configuracion en los ficheros de /var/lib/bind ](./imagenes/2.png)
 
-Una vez hecho eso podemos configurar las zonas
+Una vez hecho eso, se pueden configurar las zonas
 
 ![ Modificación de configuracion en los ficheros de /var/lib/bind ](./imagenes/3.png)
 
-Podemos comprobar que funciona al utiliza dig
+Podemos comprobar que funciona utilizando el comando DIG
 
 ![ Comprobación DIG ](./imagenes/4.png)
 
@@ -102,13 +102,15 @@ De igual forma como en el paso anterior se modifican los ficheros de configuraci
 
 ![ Modificacion de configuracion ](./imagenes/10.png)
 
-Una vez mas se comprueba con el dig
+Nuevamente se comprueba con el comando DIG
 
 ![ Comprobación DIG ](./imagenes/12.png)
 
 ![ Comprobación DIG ](./imagenes/13.png)
 
 ![ Comprobación DIG ](./imagenes/14.png)
+
+
 
 
 
